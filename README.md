@@ -2,13 +2,9 @@
 
 ## Preview:
 
----
-
 ![alt text](assets/preview.jpg "Preview")
 
 ## Todo
-
----
 
 - ~~Desktop main page~~
 - Tablet Main Page
