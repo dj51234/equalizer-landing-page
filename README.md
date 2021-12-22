@@ -8,5 +8,5 @@
 
 - ~~Desktop main page~~
 - ~~Btn hovers~~
-- Tablet Main Page
+- ~~Tablet Main Page~~
 - Mobile Main Page

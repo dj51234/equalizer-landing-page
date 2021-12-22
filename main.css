@@ -108,6 +108,11 @@ main {
   z-index: 10;
 }
 
+.phone img {
+  width: 312px;
+  height: 642px;
+}
+
 .design-element-2 {
   position: absolute;
   left: 43%;
@@ -123,12 +128,13 @@ main {
   max-width: 346px;
   background-color: #fa7453;
   color: #fff;
-  padding: 55px;
+  padding: 35px 55px;
   border-radius: 10px;
 }
 
 .promo-card h2 {
   font-size: 40px;
+  margin-top: 10px;
 }
 
 .promo-card p {
@@ -161,6 +167,13 @@ main {
   align-items: center;
 }
 
+.footer-content {
+  width: 650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
 .social {
   width: 100px;
   display: flex;
@@ -179,4 +192,53 @@ main {
   font-size: 16px;
   line-height: 26px;
   width: 386px;
+  margin-top: 0;
+}
+
+@media (max-width: 1260px) {
+  .wrapper,
+  .main-wrap,
+  .footer-wrap {
+    width: 696px;
+  }
+
+  .wrapper {
+    padding-bottom: 250px;
+  }
+
+  .wrapper h1 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+
+  .phone {
+    width: 270px;
+    left: 65px;
+    top: -160px;
+  }
+
+  .phone img {
+    width: 270px;
+    height: 556px;
+  }
+
+  .promo-card {
+    width: 289px;
+    right: 60px;
+    bottom: -100px;
+    z-index: 20;
+  }
+
+  .design-element-2 {
+    left: 54%;
+    top: -60px;
+  }
+
+  .footer-content {
+    display: block;
+  }
+
+  .footer-content p {
+    margin-top: 20px;
+  }
 }
