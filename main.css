@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;700&display=swap");
+
+/* Resets and utils */
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  background: url("./assets/bg-main-desktop.png") 0 0 / contain;
+  font-family: "IBM Plex Sans", sans-serif;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 20px 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn span:first-child {
+  margin-right: 10px;
+}
+
+.btn-dark {
+  background: #191826;
+  color: #fff;
+}
+
+.btn-light {
+  background: #fff;
+  color: #444;
+}
+
+/* sections */
+
+/* hero */
+
+header {
+  padding-bottom: 350px;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+.wrapper section {
+  width: 80%;
+}
+
+.design-element {
+  position: absolute;
+  top: -50px;
+  right: 0px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 88px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+main {
+  padding-bottom: 175px;
+}
+
+/* main  */
+
+.main-wrap {
+  width: 1100px;
+  background: #191826;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 10px;
+}
+
+.phone {
+  position: absolute;
+  left: 100px;
+  top: -215px;
+  z-index: 10;
+}
+
+.design-element-2 {
+  position: absolute;
+  left: 43%;
+  transform: translateX(-50%);
+}
+
+/* card  */
+
+.promo-card {
+  position: absolute;
+  right: 95px;
+  bottom: -115px;
+  max-width: 346px;
+  background-color: #fa7453;
+  color: #fff;
+  padding: 55px;
+  border-radius: 10px;
+}
+
+.promo-card h2 {
+  font-size: 40px;
+}
+
+.promo-card p {
+  font-size: 16px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.price h2 {
+  font-weight: 700;
+  font-size: 88px;
+  margin: 0 25px 25px 0;
+}
+
+.buttons > * {
+  margin: 10px 0;
+}
+
+/* footer  */
+
+.footer-wrap {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-wrap p {
+  font-size: 16px;
+  line-height: 26px;
+  width: 386px;
+}
