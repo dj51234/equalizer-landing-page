@@ -9,7 +9,7 @@ html {
 body {
   min-height: 100vh;
   width: 100vw;
-  background: url("./assets/bg-main-desktop.png") 0 0 / contain;
+  background: url("./assets/bg-main-desktop.png") 0 0 / cover;
   font-family: "IBM Plex Sans", sans-serif;
   position: relative;
   overflow-x: hidden;
@@ -18,14 +18,19 @@ body {
 .btn {
   text-decoration: none;
   padding: 20px 0;
-  border-radius: 5px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: 600;
+  transition: 0.2s ease;
 }
 
 .btn span:first-child {
   margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-dark {
@@ -33,9 +38,18 @@ body {
   color: #fff;
 }
 
+.btn-dark:hover {
+  background: #66e2dc;
+  color: #191826;
+}
+
 .btn-light {
   background: #fff;
-  color: #444;
+  color: #191826;
+}
+
+.btn-light:hover {
+  background: #ffb964;
 }
 
 /* sections */
@@ -151,6 +165,14 @@ main {
   width: 100px;
   display: flex;
   justify-content: space-between;
+}
+
+.social a svg path {
+  transition: 0.1s ease;
+}
+
+.social a:hover svg path {
+  fill: #fa7453;
 }
 
 .footer-wrap p {

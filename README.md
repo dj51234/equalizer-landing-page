@@ -7,6 +7,6 @@
 ## Todo
 
 - ~~Desktop main page~~
-- Btn hovers
+- ~~Btn hovers~~
 - Tablet Main Page
 - Mobile Main Page
