@@ -9,4 +9,4 @@
 - ~~Desktop main page~~
 - ~~Btn hovers~~
 - ~~Tablet Main Page~~
-- Mobile Main Page
+- ~~Mobile Main Page~~

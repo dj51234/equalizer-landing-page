@@ -242,3 +242,61 @@ main {
     margin-top: 20px;
   }
 }
+
+@media (max-width: 800px) {
+  .design-element {
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .wrapper,
+  .main-wrap,
+  .footer-wrap {
+    width: 100%;
+  }
+
+  .wrapper {
+    padding: 100px 25px 200px;
+  }
+
+  .wrapper h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .promo-card {
+    right: 0;
+    bottom: -350px;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .design-element-2 {
+    left: 51%;
+    top: 0;
+    transform: translateX(-50%);
+  }
+
+  .phone {
+    width: 208px;
+    left: 50%;
+    top: -160px;
+    transform: translateX(-50%);
+  }
+
+  .phone img {
+    width: 208px;
+    height: 430px;
+  }
+
+  footer {
+    padding-top: 280px;
+  }
+
+  .footer-wrap {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+  }
+}
